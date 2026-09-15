@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-button {
+    padding: 15px 25px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
